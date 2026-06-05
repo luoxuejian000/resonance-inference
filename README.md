@@ -1,2 +1,43 @@
-# resonance-inference
-LLM inference controller based on Jingmai Philosophy &amp; Harmonic Dynamics. Real-time adaptive tuning via harmony function H = λᵤU + λᴅD - λₐA and temperature dynamics dτ/dt = -α(dH/dt)/τ + β(d²H/dt²) - γτ.
+# Resonance Inference v2.0
+
+基于**晶脉哲学**（关系本体论、矛盾动力论、谐振调谐论、实践介入论）的LLM推理实时控制器。
+
+
+## 核心函数
+
+
+**H = λᵤ·U + λᴅ·D - λₐ·A**
+
+
+| 维度 | 含义 | 哲学对应 |
+|------|------|---------|
+| U (统一性) | 语义密度、概念在场强度 | 关系本体论 |
+| D (发展性) | 逻辑流动的连续性、熵减趋势 | 关系演化论 |
+| A (对抗性) | 否定密度、矛盾综合程度 | 矛盾动力论 |
+| H (和谐度) | 系统整体谐振质量 | 谐振调谐论 |
+
+
+## 温度动力学
+
+
+**dτ/dt = -α·(dH/dt)/τ + β·(d²H/dt²) - γ·τ**
+
+
+- 谐振项：H上升→降温(利用)，H下降→升温(探索)
+- 惯性项：H加速上升→提前调节(顿悟相变)
+- 衰减项：温度自然趋向稳态
+
+
+## 快速开始
+
+
+```bash
+pip install -e .
+python examples/quickstart.py
+```
+
+
+## 作者
+
+
+李广好 (luoxuejian000) · Apache License 2.0
