@@ -1,0 +1,77 @@
+Metadata-Version: 2.4
+Name: resonance-inference
+Version: 2.0.0
+Summary: 基于晶脉哲学与谐振动力学的LLM推理实时控制器
+Home-page: https://github.com/luoxuejian000/resonance-inference
+Author: 李广好 (luoxuejian000)
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache License 2.0
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: torch>=2.0.0
+Requires-Dist: transformers>=4.30.0
+Requires-Dist: numpy>=1.24.0
+Requires-Dist: scipy>=1.10.0
+Requires-Dist: scikit-learn>=1.2.0
+Requires-Dist: sentence-transformers>=2.2.0
+Provides-Extra: full
+Requires-Dist: spacy>=3.5.0; extra == "full"
+Provides-Extra: dev
+Requires-Dist: pytest>=7.0; extra == "dev"
+Requires-Dist: black; extra == "dev"
+Requires-Dist: mypy; extra == "dev"
+Dynamic: author
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: provides-extra
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# Resonance Inference v2.0
+
+基于**晶脉哲学**（关系本体论、矛盾动力论、谐振调谐论、实践介入论）的LLM推理实时控制器。
+
+
+## 核心函数
+
+
+**H = λᵤ·U + λᴅ·D - λₐ·A**
+
+
+| 维度 | 含义 | 哲学对应 |
+|------|------|---------|
+| U (统一性) | 语义密度、概念在场强度 | 关系本体论 |
+| D (发展性) | 逻辑流动的连续性、熵减趋势 | 关系演化论 |
+| A (对抗性) | 否定密度、矛盾综合程度 | 矛盾动力论 |
+| H (和谐度) | 系统整体谐振质量 | 谐振调谐论 |
+
+
+## 温度动力学
+
+
+**dτ/dt = -α·(dH/dt)/τ + β·(d²H/dt²) - γ·τ**
+
+
+- 谐振项：H上升→降温(利用)，H下降→升温(探索)
+- 惯性项：H加速上升→提前调节(顿悟相变)
+- 衰减项：温度自然趋向稳态
+
+
+## 快速开始
+
+
+```bash
+pip install -e .
+python examples/quickstart.py
+```
+
+
+## 作者
+
+
+李广好 (luoxuejian000) · Apache License 2.0
